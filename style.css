@@ -1,0 +1,46 @@
+body{
+    background-color: lightgray;
+}
+
+.error {
+    display: none;
+    color: red;
+}
+.error.show {
+    display: block;
+}
+
+.taskInputField {
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-bottom: solid 3px rgb(118, 118, 241);
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#multipleCheckBtn {
+    background-color: green;
+    color: white;
+}
+
+#multipleUncheckBtn {
+    background-color: purple;
+    color: white;
+}
+
+.task-header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.modal-title{
+    font-size: 36px;
+}
+
+.main-container{
+    padding: 20px;
+}
